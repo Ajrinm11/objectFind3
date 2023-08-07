@@ -1,0 +1,72 @@
+body{
+    background-size:cover;
+    font-family:georgia;
+}
+
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #e9d362 0%, #333333  51%, #e9d362  100%);
+    font-family:georgia;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+  .heading
+  {
+    font-size: 23px;
+    width:100%;
+    margin: 0px;
+  }
+
+  #status, #number_of_objects, #start{
+    font-size:18px;
+  }
+
+.footer
+{
+    position:fixed;
+    bottom:0;
+    background:rgb(0, 0, 0);
+    color:white;
+    width:100%;
+    text-align: center;
+    line-height: 3;
+}
+
+canvas{
+    border:20x solid white;
+    border-radius:10px;
+    margin-top:130px;
+    box-shadow: 5px 5px 5px white;
+    
+}
+
+.input{
+  font-size: 20px;
+}
+
+.btn-info
+{
+margin-right: 10px;
+}
+
+#object_name
+{
+  width: 20%;
+  height: 30px;
+  border-color: white;
+  border-radius: 10px;
+}
